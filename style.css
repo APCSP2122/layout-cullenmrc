@@ -4,37 +4,54 @@ html {
 }
 
 
-
 body {
+    margin: 0;
+    text-align: center;
+    font-size: 2.5rem;
     color: #000;
 }
 
-
-
 header {
     background-color:   DeepSkyBlue;
+    border: 10px solid  Orange;
+    padding: 10px;
+    margin:  10px;
+    font-size: 2rem;
+    display:    flex;
+    justify-content:    space-between;     /* moves items along Main Axis */
+    align-items:    center;                /* moves items along Cross Axis */
 }
-
 
 
 main {
     background-color:     DarkBlue;
+    border:     10px solid Orange;
+    padding: 50px;
+    margin:  50px;
+    display:  flex;
+    justify-content:    space-around;     /* moves items along Main Axis */
 }
-
 
 
 footer {
     background-color:   DeepSkyBlue;
+    border: 10px solid Orange;
+    padding: 50px;
+    margin:  50px;
 }
-
-
 
 section {
-    background-color: yellow;    
+    background-color: yellow;
+    margin:  25px;
+    display:  flex;
+    justify-content:    space-around;     /* moves items along Main Axis */
+    align-items:    center;
+    width:  70vw;
+    
 }
-
-
 
 aside {
     background-color: lightGreen;
+    padding: 20px;
+    margin:  20px;
 }
